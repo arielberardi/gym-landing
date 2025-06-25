@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   --color-gray-20: #f8f4eb;
@@ -11,8 +11,8 @@
   --color-secondary-400: #ffcd5b;
   --color-secondary-500: #ffc132;
 
-  --font-dmsans: "DM Sans", sans-serif;
-  --font-monserrat: "Montserrat", sans-serif;
+  --font-dmsans: 'DM Sans', sans-serif;
+  --font-monserrat: 'Montserrat', sans-serif;
 
   --breakpoints-xs: 480px;
   --breakpoints-sm: 768px;
