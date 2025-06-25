@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./assets/fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 @import 'tailwindcss';
 
 @theme {
@@ -17,4 +34,14 @@
   --breakpoints-xs: 480px;
   --breakpoints-sm: 768px;
   --breakpoints-md: 1060px;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  @apply text-gray-500;
 }
