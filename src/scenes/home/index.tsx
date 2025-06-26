@@ -1,5 +1,5 @@
 import { SelectedPage } from '@/types/selectedPage';
-import ActionButton from '@/scenes/actionbutton';
+import ActionButton from '@/components/actionbutton';
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { motion } from 'framer-motion';
 

@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import Logo from '@/assets/images/Logo.png';
 import Link from './Link';
 import useMediaQuery from '@/hooks/useMediaQuery';
-import ActionButton from '@/scenes/actionbutton';
+import ActionButton from '@/components/actionbutton';
 import type { SelectedPage } from '@/types/selectedPage';
 
 type Props = {
@@ -83,7 +83,7 @@ function Navbar({ selectedPage, setSelectedpage, isTopOfPage }: Props) {
 
           {/* Menu Items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
-            <Link page="home" selectedPage={selectedPage} setSelectedPage={setSelectedpage} />
+            <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedpage} />
             <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedpage} />
             <Link
               page="Our Classes"
