@@ -38,7 +38,7 @@ function Navbar({ selectedPage, setSelectedpage, isTopOfPage }: Props) {
             {isAboveMediumScreens ? (
               <div className={clsx(flexBetween, 'w-full gap-16')}>
                 <div className={clsx(flexBetween, 'gap-8 text-sm')}>
-                  <Link page="home" selectedPage={selectedPage} setSelectedPage={setSelectedpage} />
+                  <Link page="Home" selectedPage={selectedPage} setSelectedPage={setSelectedpage} />
                   <Link
                     page="Benefits"
                     selectedPage={selectedPage}

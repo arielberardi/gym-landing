@@ -34,6 +34,11 @@
   --breakpoints-xs: 480px;
   --breakpoints-sm: 768px;
   --breakpoints-md: 1060px;
+
+  --content-evolvetext: url('./assets/images/EvolveText.png');
+  --content-abstractwaves: url('./assets/images/AbstractWaves.png');
+  --content-sparkles: url('./assets/images/Sparkles.png');
+  --content-circles: url('./assets/images/Circles.png');
 }
 
 html,
